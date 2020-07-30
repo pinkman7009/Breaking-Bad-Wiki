@@ -124,10 +124,18 @@ input[type='text'] {
 	.cards {
 		grid-template-columns: repeat(2, 1fr);
 	}
+	.card img {
+		object-position: center;
+		object-fit: contain;
+	}
 }
 
 @media (max-width: 500px) {
 	.cards {
 		grid-template-columns: 1fr;
+	}
+	.card img {
+		object-position: center;
+		object-fit: contain;
 	}
 }
