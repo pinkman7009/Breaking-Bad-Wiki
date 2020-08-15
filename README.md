@@ -3,7 +3,7 @@ Simple React application which lists down all the characters from the popular TV
 
 # Features 
 
-1. Uses React Hooks useEffect to make an API call to a third party API ( https://breakingbadapi.com/ ). 
+1. Uses the React Hook useEffect to make an API call to a third party API ( https://breakingbadapi.com/ ). 
 2. Fetches data like Name, Image, Occupation, etc and displays them on hover of cards.
 3. Loading spinner added to enhance UX.
 
